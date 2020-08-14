@@ -1,0 +1,71 @@
+/***********************************General styles  */
+.center {
+  justify-content: center;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.margin-bottom {
+  margin-bottom: 1em;
+  margin-top: .4em;
+}
+
+hr {
+  width: 80%;
+}
+
+html {
+  background: url("images/tommy-lisbin-Yyo9XS2mkSQ-unsplash.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background-light {
+  padding: .3em;
+  background-color: rgba(231, 231, 231, 0.473);
+  border-radius: 4px;
+  width: 60%;
+  margin: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/***********************************Header styles  */
+header {
+  margin-top: 1em;
+}
+
+/***********************************Form styles  */
+.query-spacing {
+  margin-bottom: .6em;
+}
+
+/***********************************Main content styles  */
+.resultsList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.resultsList a:link {
+  text-decoration: none;
+  color: rgb(55, 255, 121);
+  text-decoration: underline;
+}
+
+.resultsList
+ a:hover,
+ a:active
+ {
+  color: rgb(183, 255, 207);
+}
+
+.resultsList a:visited {
+  color: rgb(183, 255, 207);
+}

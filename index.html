@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" integrity="sha512-Ojqt7YpXqYM6//AdMhErV3ot38rYgGF5QLJEwx7zhesjL9VqfhWiRz/dWK22hsn96RNz0CLl85+pg1P0BmfgVQ==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <title>National Park Finder</title>
+</head>
+<body class="center">
+<!-- Main header for page -->
+  <header>
+    <h1 class="background-light">Search National Parks in any State!</h1>
+    <hr>
+  </header>
+<!-- User input form area -->
+  <main>
+    <h2>Please fill out the form below</h2>
+    <section>
+      <form class="inputForm">
+        <label class="background-light bold" for="userStateInput">Enter one or more state abbreviations separated by a comma</label><br>
+          <input class="margin-bottom" type="text" id="userStateInput"><br>
+        <label class="background-light bold" for="userResultsNumberInput">Enter number of results</label><br>
+        <input class="margin-bottom" type="text" id="userResultsNumberInput" value="10"><br>
+        <button type="submit" class="bold" id="searchBtn">Search</button>
+      </form>
+    </section>
+<!-- Form results area -->
+    <section class="resultsArea hide">
+      <h2>Search results</h2>
+      <ul class="resultsList">
+
+      </ul>
+    </section>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+
+</body>
+</html>
